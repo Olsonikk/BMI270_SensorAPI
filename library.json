@@ -1,0 +1,14 @@
+{
+  "name": "BMI270_SensorAPI_custom",
+  "version": "1.0.0",
+  "build": {
+    "srcFilter": [
+      "+<*.c>",
+      "-<bmi270_DSD_examples/>",
+      "-<bmi270_context_examples/>",
+      "-<bmi270_examples/>",
+      "-<bmi270_legacy_examples/>",
+      "-<bmi270_max_fifo_examples/>"
+    ]
+  }
+}
